@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* لون خلفية هادئ */
+    color: #333; /* لون نص داكن */
+}
+
+header {
+    background-color: #007bff; /* لون أزرق مريح */
+    text-align: center;
+    padding: 3rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1.display-4 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: #fff; /* لون نص أبيض */
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline; /* تأثير عند التمرير */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 15px;
+}
+
+.section-title {
+    color: #007bff; /* لون عنوان القسم */
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.objective-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list-group-item {
+    background-color: #fff; /* خلفية بيضاء */
+    border: 1px solid #ddd; /* حدود خفيفة */
+    border-radius: 5px; /* زوايا مستديرة */
+    margin-bottom: 0.5rem;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* تأثير عند التمرير */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff; /* لون أزرق مريح */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#formResponse {
+    display: none;
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+/* تأثيرات الرسوم المتحركة */
+[data-aos] {
+    transition-property: transform, opacity;
+}
+
+/* نمط الأزرار */
+.btn {
+    background-color: #ededed; /* لون أخضر مريح */
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #007bff; /* ظلال داكنة عند التمرير */
+    color: #ededed
+}
+
+/* نمط نموذج الاتصال */
+.form-control {
+    border: 1px solid #ccc; /* حدود خفيفة */
+    border-radius: 5px; /* زوايا مستديرة */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* تغيير لون الحدود عند التركيز */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* تأثير ظل عند التركيز */
+}
+
